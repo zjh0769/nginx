@@ -1,5 +1,5 @@
 # 版本信息
-FROM nginx
+FROM centos
 
 # 添加发布文件到容器目录
 RUN mkdir -p /usr/test
