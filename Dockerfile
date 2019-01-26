@@ -13,4 +13,4 @@ RUN chmod u+x /usr/test/start.sh
 EXPOSE 80
 
 # 安装并启动nginx
-RUN sh /usr/test/start.sh
+CMD [ "sh", "/usr/test/start.sh" ]
